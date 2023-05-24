@@ -7,7 +7,7 @@ html, body {
 }
 
 body{
-    background-color: #E6E6FA;
+    background-color: #1B1B1B;
     margin: 0;
 }
 
@@ -24,13 +24,13 @@ body{
    align-items: center;
    width: 300px;
    box-shadow: 1px 1px 20px black;
-   background-color: #E6E6FA;
+   background-color: #2a3439;
 
 }
 .introContainer {
     width: 200px;
     height: 150px;
-    background-color: #E6E6FA;
+    background-color: #2a3439;
     border-radius: 1.3rem;
     margin: 30px;
    
@@ -58,7 +58,7 @@ body{
 .slider {
     position: relative;
     display: block;
-    background-color: #333333;
+    background-color: #E6E6FA;
     transition: 0.4s;
     width:  68px;
     height: 25px;
@@ -69,7 +69,7 @@ body{
     position: absolute;
     height: 20px;
     width: 20px;
-    background-color: #E6E6FA;
+    background-color: #2a3439;
     transition: 0.4s;
     top: 3px;
     left: 3px;
@@ -89,7 +89,7 @@ input:checked + .slider {
 }
 
 input:checked + .slider:before {
-    background-color: #333333;
+    background-color: #2a3439;
     box-shadow: 0px 0px 2px;
 }
 
@@ -101,14 +101,14 @@ transform: translateX(42px);
     margin-left: 0%;
     margin-right: 0%;
     margin-bottom: 0%;
-    background-color: #E6E6FA;
+    background-color: #2a3439;
     border: 1px black;
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: center;
     justify-content: space-between;
-    color: #333333;
+    color: #E6E6FA;
 
     box-shadow: 0px 0px 2px;
     width: 100%;
@@ -131,12 +131,12 @@ transform: translateX(42px);
     text-align: center;
     text-decoration: none;
     transition: ease-out 0.3s;
-    box-shadow: 0px 0px 5px black;
+    box-shadow: 0px 0px 5px whitesmoke;
 }
 .link1:hover {
     box-shadow: inset 200px 0 0 0 rgba(12, 182, 12, 0.884);
     cursor: pointer;
-    color: #E6E6FA;
+    color: #2a3439;
 }
 
 .link2 {
@@ -149,12 +149,12 @@ transform: translateX(42px);
     text-align: center;
     text-decoration: none;
     transition: ease-out 0.3s;
-    box-shadow: 0px 0px 5px black;
+    box-shadow: 0px 0px 5px whitesmoke;
 }
 .link2:hover {
     box-shadow: inset 200px 0 0 0 rgba(9, 73, 209, 0.884);
     cursor: pointer;
-    color: #E6E6FA;
+    color: #2a3439;
 }
 
 h1 {
@@ -189,9 +189,9 @@ h6 {
     height: 500px;
     flex: 1 0 50px;
     padding: 5px;
-    background-color: #E6E6FA;
+    background-color: #2a3439;
     border-radius: 12px;
-    color: #333333;
+    color: #E6E6FA;
 
 }
 
@@ -200,9 +200,9 @@ h6 {
     margin: 30px;
     flex: 1 0 50px;
     padding: 5px;
-    background-color: #E6E6FA;
+    background-color: #2a3439;
     border-radius: 12px;
-    color: #333333;
+    color: #E6E6FA;
 }
 
 .profPic {
